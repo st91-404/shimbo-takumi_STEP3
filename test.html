@@ -14,13 +14,72 @@
     <div class="wrapper">
         <div id="aside">
             <ul>
-                <li><a href="#">トップ</a></li>
-                <li><a href="#">新着情報</a></li>
-                <li><a href="#">おすすめのスイーツ</a></li>
-                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#header">トップ</a></li>
+                <li><a href="https://www.komeda.co.jp/news/detail.html?cat=2&article=7293108">新着情報</a></li>
+                <li><a href="https://the-niigata.jp/product/3852/">おすすめのスイーツ</a></li>
+                <li><a href="https://github.com/st91-404">お問い合わせ</a></li>
             </ul>
         </div>
-        
+        <div id="main">
+            <form action="">
+            <table>
+                <tr>
+                    <th>お名前</th>
+                    <td><input type="text" name="name" id="name" size="40"></td>
+                </tr>
+                <tr>
+                    <th>お近くのお店</th>
+                    <td>
+                        <select name="shop" id="shop">
+                            <option value="1">北海道・東北</option>
+                            <option value="2">関東</option>
+                            <option value="3">中部</option>
+                            <option value="4">関西</option>
+                            <option value="5">中国・四国</option>
+                            <option value="6">九州・沖縄</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td><input type="tel" name="tel" id="tel" size="40"></td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td><input type="tel" name="tel" id="tel" size="40"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス</th>
+                    <td>
+                        <input type="email" name="email" id="email" size="40">
+                    </td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ種別</th>
+                    <td>
+                        <input type="radio" name="type" id="type1">
+                        <label for="type1">商品について</label>
+                        <input type="radio" name="type" id="type2">
+                        <label for="type2">従業員について</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ内容</th>
+                    <td>
+                        <textarea name="text" id="text" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="送信">
+        </form>
+            </table>
+        </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div id="footer">
+            <p>ここに企業の詳細を記載したりしなかったり。</p>
+        </div>
     </div>
 </body>
 </html>
